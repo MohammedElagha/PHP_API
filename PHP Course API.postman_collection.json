@@ -1,0 +1,111 @@
+{
+	"info": {
+		"_postman_id": "14347842-5138-4b0c-a3cd-a59d88d01de7",
+		"name": "PHP Course API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "magha",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/php_mobile_course/api_example/login/login_action.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"php_mobile_course",
+						"api_example",
+						"login",
+						"login_action.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Student",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "student_name",
+							"value": "test",
+							"type": "text"
+						},
+						{
+							"key": "student_email",
+							"value": "test2@test.net",
+							"type": "text"
+						},
+						{
+							"key": "student_phone",
+							"value": "913132132",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/php_mobile_course/api_example/student/add_student_action.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"php_mobile_course",
+						"api_example",
+						"student",
+						"add_student_action.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Students",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost/php_mobile_course/api_example/student/get_students_action.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"php_mobile_course",
+						"api_example",
+						"student",
+						"get_students_action.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
