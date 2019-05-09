@@ -67,7 +67,7 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost/php_mobile_course/api_example/student/add_student_action.php",
+					"raw": "http://localhost/php_mobile_course/api_example/student/add_student_action.php?token=Tz9X3EaOtKezCZy4qXREpJm9vVNVcDmPrqNbIqiP0cA8KRTVVZWy0HVRXzAb",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -77,6 +77,12 @@
 						"api_example",
 						"student",
 						"add_student_action.php"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "Tz9X3EaOtKezCZy4qXREpJm9vVNVcDmPrqNbIqiP0cA8KRTVVZWy0HVRXzAb"
+						}
 					]
 				}
 			},
@@ -92,7 +98,7 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost/php_mobile_course/api_example/student/get_students_action.php",
+					"raw": "http://localhost/php_mobile_course/api_example/student/get_students_action.php?token=Tz9X3EaOtKezCZy4qXREpJm9vVNVcDmPrqNbIqiP0cA8KRTVVZWy0HVRXzAb",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -102,6 +108,12 @@
 						"api_example",
 						"student",
 						"get_students_action.php"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "Tz9X3EaOtKezCZy4qXREpJm9vVNVcDmPrqNbIqiP0cA8KRTVVZWy0HVRXzAb"
+						}
 					]
 				}
 			},
